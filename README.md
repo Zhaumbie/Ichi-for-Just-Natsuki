@@ -25,7 +25,7 @@ A fan-made card game submod for [Just Natsuki](https://github.com/Just-Natsuki-T
 - rematches, forfeits, and win/loss scenes
 - custom UI and card assets built to fit the mod
 
-Because this is a pre-release build, ***Ichi*** **is currently locked until you have unlocked the** ***Snap*** **minigame**. Speaking of pre-release...
+[**Get it here**](https://github.com/Zhaumbie/Ichi-for-Just-Natsuki/releases). Because this is a pre-release build, ***Ichi*** **is currently locked until you have unlocked the** ***Snap*** **minigame**. Speaking of pre-release...
 ___
 
 ## Pre-release testing build (v0.9)
@@ -72,7 +72,7 @@ The core game is here and ready, but a few extra rule systems are being saved fo
 
 ## Installation
 
-1. **Back up your persistent data first.** [How to back up your JN persistent file](https://github.com/Just-Natsuki-Team/NatsukiModDev/wiki/04:-FAQ#can-i-back-up-my-save-data--how-do-i-find-my-persistent)
+1. Just to beat that dead horse, **back up your persistent data first.** [Here's how to back up your JN persistent file.](https://github.com/Just-Natsuki-Team/NatsukiModDev/wiki/04:-FAQ#can-i-back-up-my-save-data--how-do-i-find-my-persistent)
 
 2. Download the latest test build from **Releases**.
 
@@ -96,7 +96,7 @@ If you run into a bug, please report it in this repository and include:
 - what you were doing right before it happened
 - the traceback, if the game threw one
 
-Basically: if it breaks, bring receipts.
+Basically... if it breaks, bring me your receipts.
 
 ---
 
