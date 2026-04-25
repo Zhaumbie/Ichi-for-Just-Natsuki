@@ -19,56 +19,40 @@ A fan-made card game submod for [Just Natsuki](https://github.com/Just-Natsuki-T
 ## What is this?
 
 **Ichi** adds a new card game to Just Natsuki, complete with:
+
 - full playable matches against Natsuki
-- in-character rules explanation
-- tsundere banter action during play
-- rematches, forfeits, and win/loss scenes
+- unlockable gameplay modes and house rules
+- in-character introduction and rules explanations
+- witty tsundere banter action throughout play
+- rematches, forfeits, win/loss scenes, and spree reactions
+- three affinity tiers factored into dialogue and tone
 - custom UI and card assets built to fit the mod
+- standard affinity gain through completing a game, win or lose (up to daily max)
+- ...And much more! See the each release's changelog for more details.
 
-[**Get it here**](https://github.com/Zhaumbie/Ichi-for-Just-Natsuki/releases). Because this is a pre-release build, ***Ichi*** **is currently locked until you have unlocked the** ***Snap*** **minigame**. Speaking of pre-release...
-___
+### ...But why did you build this?
 
-## Pre-release testing build (v0.9)
+I wanted to provide the community a compelling way to ~~_perform the Sisyphean task of grinding her affinity over multiple months_~~ foster a more meaningful camaraderie and friendship with Natsuki than listening to her hamsters speech for the 500th time, like I had to. (_And god help you if you beat her in **Snap** four times in a row..._)
 
-This repository currently exists for **testing and bug reporting** before the main release.
-
-The submod is playable and feature-complete for its current scope, but this is still a beta-style build. 
-
-If anything weird, cursed, or "oops" happens, let me know so I can fix that. That said, it's already been pretty beta-tested, and I've already played, like, 50 rounds of this without issues. But my machine isn't your machine, etc.
-
-___
+That, and as soon as the concept of "1v1 Uno on tap whenever I want it" occurred to me my fate was pretty much sealed!
 
 <p align="center">
   <img src="media/jn-ichi-preview2.gif" alt="Ichi gameplay preview 2" width="100%">
 </p>
 
-## Current Features
-Enjoy feature-complete, single-round Ichi gameplay playable directly through the **Games** topic.
 
-- In-character rules explanation
-- In-game banter throughout the match
-- AI card choice and turn logic
-- Tier-based tsundere content
-- Wild Draw Four legality enforcement
-- Deck reshuffling when needed
-- Win, loss, rematch, and forfeit dialogue
-- Standard affinity gain through completing a round, win or lose
-- Only a *single* persistent write (adding the game to the topics database)
+### Great! How do I unlock it?
 
----
+Ichi follows vanilla logic for minigames. It's introduced through a one-time greeting scene, and gameplay is found under the "Games" topic. To encourage engaging with the vanilla content first, Ichi depends on you having already unlocked the two existing minigames. These are the unlock criteria for the Ichi introduction:
+- Reaching **HAPPY** affinity with Natsuki
+- Launch the **Snap** topic at least 3 times
+- Launch the **Blackjack** topic at least 3 times
+- Exhaust all queued "special" vanilla greetings content (holidays, unlocks, etc.)
+- After that, the Ichi intro will queue for the next eligible boot sequence
+  
+Beyond this are unlockable features. The first unlocks after completing 3 rounds of Ichi, win or lose. Once you complete one game of the resulting game mode, win or lose, you unlock a new mode. Have fun!
 
-## Upcoming Features
-The core game is here and ready, but a few extra rule systems are being saved for the full release.
-
-- A proper in-game reveal
-- House rules
-- Advanced Ichi with score carryover in "Race to 500 points" style
-- Ichi-specific persistent data and games tracking
-- Bluffs and catch penalties
-- Even more banter and affinity-tier content
-- Integration with my other upcoming submods
-
----
+___
 
 ## Installation
 
@@ -82,9 +66,23 @@ The core game is here and ready, but a few extra rule systems are being saved fo
 
 5. Launch **Just Natsuki**.
 
-6. Ask Natsuki to play Ichi through the **Games** topic.
+6. Meet the unlock criteria and watch the one-time introduction.
 
-7. Enjoy!
+7. Ask Natsuki to play Ichi through the **Games** topic.
+
+8. Enjoy!
+
+---
+
+## Upcoming Features (Maybe)
+After 80 hours minimum on coding, designing, testing, and writing this, the core game is here and complete and if I stopped right here it's completely rock-solid and feature-complete. Plus, my other submods need my love and so does my main DDLC story mod, so these are more notes for me than teasers for you. 
+
+However, I never know to leave well enough alone, so I *am* napkin-scribbling some future concepts, such as...
+
+- Potential additional gameplay modes (including new gameplay cards)
+- Bluffs and catch penalties so Natsuki can pull a fast one on you, and vice versa
+- Even more banter and affinity-tier content (because 800+ new lines of dialogue wasn't enough?)
+- Integration with my other upcoming submods
 
 ---
 
@@ -95,6 +93,7 @@ If you run into a bug, please report it in this repository and include:
 - what happened
 - what you were doing right before it happened
 - the traceback, if the game threw one
+- any house rules in play at the time
 
 Basically... if it breaks, bring me your receipts.
 
@@ -105,4 +104,4 @@ Basically... if it breaks, bring me your receipts.
 - **Team Salvato** for Doki Doki Literature Club
 - The **Just Natsuki Team** for their hard work on this mod
 - Dmitry Fomin over at Wikimedia Commons [for the cards and the super generous license](https://commons.wikimedia.org/wiki/File:UNO_cards_deck.svg#)
-- Everyone helping test a pre-release card game on purpose
+- And my super helpful beta testers: yes.exe, Humanbean
