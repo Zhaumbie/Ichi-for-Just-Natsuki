@@ -75,7 +75,7 @@ ___
 ---
 
 ## Upcoming Features (Maybe)
-After 80 hours minimum on coding, designing, testing, and writing this, the core game is here and complete and if I stopped right here it's completely rock-solid and feature-complete. Plus, my other submods need my love and so does my main DDLC story mod, so these are more notes for me than teasers for you. 
+After 60 hours minimum on coding, designing, testing, and writing this, the core game is here and complete and if I stopped right here it's completely rock-solid and feature-complete. Plus, my other submods need my love and so does my main DDLC story mod, so these are more notes for me than teasers for you. 
 
 However, I never know to leave well enough alone, so I *am* napkin-scribbling some future concepts, such as...
 
